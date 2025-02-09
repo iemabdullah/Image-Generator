@@ -20,7 +20,7 @@ function regenerateImage() {
 // Helper function to display the image with loading animation
 function displayImage(prompt, isRegenerate = false) {
     const timestamp = new Date().getTime(); // Unique timestamp to prevent caching
-    const imageUrl = `https://text-image.codiify.us.kg/?text=${encodeURIComponent(prompt)}&t=${timestamp}`;
+    const imageUrl = `https://https://text-to-image.abdullah04913.workers.dev/?text=${encodeURIComponent(prompt)}&t=${timestamp}`;
     
     const imageElement = document.getElementById("generatedImage");
     const spinner = document.getElementById("loadingSpinner");
